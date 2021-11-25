@@ -1,0 +1,84 @@
+.carcasa{
+    display: grid;
+    grid-template:repeat(5, 20%)/repeat(5, 20%);
+    height: 400px;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 8%;
+    background-color: rgb(85, 82, 82);
+    border: 0.5px solid black;
+}
+button:hover{
+    background-color: rgb(108, 160, 108);
+}
+.carcasa button, .igual{
+    margin: 2%;
+    width: 90%;
+    height: 90%;
+    border: 2px medium double black;
+    font-size: large;
+    box-shadow: 2px 2px rgb(159, 238, 23);
+}
+.number{
+    background-color: blanchedalmond;
+    text-align: center;
+    grid-column: 1/6;
+    grid-row: 1/2;
+    font-size: 30px;
+}
+.one{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.tow{
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+.tree{
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+.four{
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+.five{
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+.six{
+    grid-column: 4/5;
+    grid-row: 3/4;
+}
+.seven{
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
+.eight{
+    grid-column: 3/4;
+    grid-row: 4/5;
+}
+.nine{
+    grid-column: 4/5;
+    grid-row: 4/5;
+}
+.zero{
+    grid-column: 3/4;
+    grid-row: 5/6;
+}
+.suma{
+    grid-column: 1/2;
+    grid-row: 2/4;
+}
+.resta{
+    grid-column: 1/2;
+    grid-row: 4/6;
+}
+.multiplicacion{
+    grid-column: 5/6;
+    grid-row: 2/4;
+}
+.division{
+    grid-column: 5/6;
+    grid-row: 4/6;
+}
